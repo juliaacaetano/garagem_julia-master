@@ -1,6 +1,6 @@
 from rest_framework.serializers import ModelSerializer
 
-from core.models import Categoria, Ano, Marca, Modelo
+from core.models import Categoria, Marca, Ano, Modelo
 
 class CategoriaSerializer(ModelSerializer):
     class Meta:
